@@ -2,7 +2,7 @@ module.exports = {
   /**
    * @description 网站标题
    */
-  title: 'EL-ADMIN',
+  title: '金辛达',
   /**
    * @description 是否显示 tagsView
    */
