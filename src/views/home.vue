@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import GithubCorner from '@/components/GithubCorner'
+// import GithubCorner from '@/components/GithubCorner'
 import PanelGroup from './dashboard/PanelGroup'
 import LineChart from './dashboard/LineChart'
 import RadarChart from '@/components/Echarts/RadarChart'
@@ -59,7 +59,7 @@ const lineChartData = {
 export default {
   name: 'Dashboard',
   components: {
-    GithubCorner,
+    // GithubCorner,
     PanelGroup,
     LineChart,
     RadarChart,
