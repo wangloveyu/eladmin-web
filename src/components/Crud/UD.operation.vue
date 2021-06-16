@@ -1,5 +1,8 @@
 <template>
   <div>
+    <router-link :to="'/mnt/mnt/serverDeploy'">
+      <el-button v-permission="permission.edit" :loading="crud.status.cu === 2" :disabled="disabledEdit" size="mini" type="success" icon="el-icon-link" @click="crud.toEdit(data)" />
+    </router-link>
     <el-button v-permission="permission.edit" :loading="crud.status.cu === 2" :disabled="disabledEdit" size="mini" type="primary" icon="el-icon-edit" @click="crud.toEdit(data)" />
     <el-popover v-model="pop" v-permission="permission.del" placement="top" width="180" trigger="manual" @show="onPopoverShow" @hide="onPopoverHide">
       <p>{{ msg }}</p>

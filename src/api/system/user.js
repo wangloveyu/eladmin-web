@@ -57,5 +57,5 @@ export function updateEmail(form) {
   })
 }
 
-export default { add, edit, del }
+export default { add, edit, del, editUser }
 

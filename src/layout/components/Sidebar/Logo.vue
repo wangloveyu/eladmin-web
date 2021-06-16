@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      title: '金辛达-管理系统',
+      title: '金辛达-智能管理系统',
       logo: Logo
     }
   }
